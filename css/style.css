@@ -42,6 +42,7 @@ header .container #nav #menu a:hover {
   color: var(--very-dark-violet);
 }
 
+/* section */
 .humanizing-section {
   background-color: var(--Dark-Violet);
   padding-top: 6rem;
@@ -77,7 +78,7 @@ header .container #nav #menu a:hover {
 
 .title {
   font-family: "DM Serif Display", serif;
-  font-size: clamp(5vw, 5rem, 7vw);
+  font-size: 4.5vw;
   font-weight: 400;
   color: #ffffff;
   line-height: 90%;
@@ -86,12 +87,18 @@ header .container #nav #menu a:hover {
 .text {
   color: #ffffff;
   line-height: 160%;
-  font-size: 1.35vw;
+  font-size: 1.2vw;
   font-weight: 400;
   padding-right: 5%;
   margin-bottom: 2rem;
 }
 @media (max-width: 960px) {
+  .title {
+    font-size: 8vw;
+  }
+  .text {
+    font-size: 3vw;
+  }
   .humanizing-section {
     box-shadow: none;
     text-align: center;
@@ -99,29 +106,22 @@ header .container #nav #menu a:hover {
   }
   .humanizing-section .flex-row {
     flex-direction: column-reverse;
-    padding: 3rem;
+    padding: 3rem 0;
   }
   .detalhe {
     display: none;
   }
-  /* .title {
-    font-size: 7vw;
-  }
-  .text,
-  .humanizing-section button {
-    font-size: 3vw;
-  } */
 }
 @media (max-width: 550px) {
-  /* .title {
-    font-size: 10vw;
+  .title {
+    font-size: 12vw;
   }
-  .text,
-  .humanizing-section button {
-    font-size: 1rem;
-  } */
+  .text {
+    font-size: 4.3vw;
+  }
   .img-container,
-  hr {
+  hr,
+  span {
     display: none;
   }
   .img-mobile {
