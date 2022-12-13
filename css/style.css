@@ -1,0 +1,134 @@
+:root {
+  --Dark-Violet: hsl(256, 26%, 20%);
+  --Grayish-Blue: hsl(216, 30%, 68%);
+  --very-dark-violet: hsl(270, 9%, 17%);
+  --dark-grayish-violet: hsl(273, 4%, 51%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+.container {
+  max-width: min(90vw, 1440px);
+  margin: 0 auto;
+}
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  font-family: "DM Serif Display", serif;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 30;
+}
+#btn-menu {
+  display: none;
+}
+
+header .container #nav #menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+header .container #nav #menu a {
+  text-decoration: none;
+  color: var(--dark-grayish-violet);
+  transition: 0.3s;
+}
+header .container #nav #menu a:hover {
+  color: var(--very-dark-violet);
+}
+
+.humanizing-section {
+  background-color: var(--Dark-Violet);
+  padding-top: 6rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 -10vw #fff;
+}
+.humanizing-section .flex-row {
+  align-items: flex-start;
+  gap: 1rem;
+}
+.humanizing-section .detalhe {
+  position: absolute;
+  top: -9%;
+  right: 0;
+}
+.humanizing-section .detalhe img {
+  width: 25vw;
+}
+.img-mobile {
+  display: none;
+}
+.humanizing-section .content hr {
+  width: 10rem;
+  height: 3px;
+  background-color: #ffffff;
+  margin-bottom: 4rem;
+}
+.img-container,
+.img-container img {
+  width: 100%;
+}
+
+.title {
+  font-family: "DM Serif Display", serif;
+  font-size: clamp(5vw, 5rem, 7vw);
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 90%;
+  margin-bottom: 2rem;
+}
+.text {
+  color: #ffffff;
+  line-height: 160%;
+  font-size: 1.35vw;
+  font-weight: 400;
+  padding-right: 5%;
+  margin-bottom: 2rem;
+}
+@media (max-width: 960px) {
+  .humanizing-section {
+    box-shadow: none;
+    text-align: center;
+    padding: 0;
+  }
+  .humanizing-section .flex-row {
+    flex-direction: column-reverse;
+    padding: 3rem;
+  }
+  .detalhe {
+    display: none;
+  }
+  /* .title {
+    font-size: 7vw;
+  }
+  .text,
+  .humanizing-section button {
+    font-size: 3vw;
+  } */
+}
+@media (max-width: 550px) {
+  /* .title {
+    font-size: 10vw;
+  }
+  .text,
+  .humanizing-section button {
+    font-size: 1rem;
+  } */
+  .img-container,
+  hr {
+    display: none;
+  }
+  .img-mobile {
+    display: block;
+    width: 100%;
+  }
+  .humanizing-section {
+    padding-top: 0;
+  }
+}

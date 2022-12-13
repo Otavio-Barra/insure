@@ -1,0 +1,22 @@
+button {
+  cursor: pointer;
+  background: none;
+  padding: 0.5rem 2.5rem;
+  transition: 0.4s;
+  border: solid 2px #fff;
+  color: var(--very-light-gray);
+  font-weight: 700;
+}
+button:hover {
+  background-color: #fff;
+  color: var(--very-dark-violet);
+}
+#menu a button {
+  border: solid 2px var(--very-dark-violet);
+  color: var(--very-dark-violet);
+}
+
+#menu a button:hover {
+  background-color: var(--very-dark-violet);
+  color: var(--very-light-gray);
+}
