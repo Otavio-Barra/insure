@@ -1,0 +1,32 @@
+.title {
+  font-family: "DM Serif Display", serif;
+  font-size: min(4.5vw, 6rem);
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 90%;
+  margin-bottom: 2rem;
+}
+.text {
+  color: #ffffff;
+  line-height: 160%;
+  font-size: min(1.2vw, 1.5rem);
+  font-weight: 400;
+  padding-right: 5%;
+  margin-bottom: 2rem;
+}
+@media (max-width: 960px) {
+  .title {
+    font-size: 8vw;
+  }
+  .text {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 550px) {
+  .title {
+    font-size: 12vw;
+  }
+  .text {
+    font-size: 4.3vw;
+  }
+}
