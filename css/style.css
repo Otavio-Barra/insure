@@ -164,6 +164,7 @@ header .container #nav #menu a:hover {
     position: absolute;
     top: 115vw;
     left: 0;
+    z-index: 1;
   }
   .pattern-intro-right-mobile {
     display: block;
@@ -182,6 +183,7 @@ header .container #nav #menu a:hover {
   .img-mobile {
     display: block;
     width: 100%;
+    z-index: 2;
   }
   .humanizing-section {
     padding-top: 0;
