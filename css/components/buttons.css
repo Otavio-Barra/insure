@@ -6,6 +6,7 @@ button {
   border: solid 2px #fff;
   color: var(--very-light-gray);
   font-weight: 700;
+  z-index: 10;
 }
 button:hover {
   background-color: #fff;
