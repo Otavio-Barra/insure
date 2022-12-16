@@ -16,6 +16,13 @@
 }
 .sub-title {
   font-family: "DM Serif Display", serif;
+  font-size: min(3.9vw, 4rem);
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 90%;
+}
+.title-icons-content {
+  font-family: "DM Serif Display", serif;
   font-size: min(2vw, 1.5rem);
   color: var(--very-dark-violet);
   margin-bottom: 2rem;
@@ -41,6 +48,9 @@
     font-size: 3vw;
   }
   .sub-title {
+    font-size: 5.5vw;
+  }
+  .title-icons-content {
     font-size: 4.4vw;
   }
   .sub-text {
@@ -55,6 +65,9 @@
     font-size: 4.3vw;
   }
   .sub-title {
+    font-size: 8.5vw;
+  }
+  .title-icons-content {
     font-size: 6vw;
   }
   .sub-text {

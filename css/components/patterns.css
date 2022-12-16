@@ -17,9 +17,14 @@
   width: min(33vw, 34rem);
   z-index: 3;
 }
+.pattern-how-we-work-desktop {
+  position: absolute;
+  right: 0;
+}
 
 @media (max-width: 960px) {
-  .pattern-intro-right-desktop {
+  .pattern-intro-right-desktop,
+  .pattern-how-we-work-desktop {
     display: none;
   }
 
@@ -35,5 +40,15 @@
   }
   .pattern-intro-left-mobile {
     width: 50%;
+  }
+  .pattern-how-we-work-mobile {
+    position: absolute;
+    right: 0;
+  }
+}
+@media (max-width: 550px) {
+  .pattern-how-we-work-desktop {
+    top: 0;
+    height: 100%;
   }
 }

@@ -93,9 +93,26 @@ header .container #nav #menu a:hover {
   width: 100%;
 }
 
+/* section 3 */
+.find-more-section {
+  background-color: var(--Dark-Violet);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  margin-bottom: 10rem;
+  position: relative;
+  overflow: hidden;
+}
+.container-btn,
+h1 {
+  z-index: 5;
+}
+
 @media (max-width: 960px) {
   .humanizing-section::before,
-  hr {
+  hr,
+  span {
     display: none;
   }
 
@@ -123,6 +140,13 @@ header .container #nav #menu a:hover {
   }
   .were-different-section .content-infos {
     flex-direction: column;
+  }
+  .find-more-section {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem 2.5rem;
   }
 }
 @media (max-width: 550px) {
