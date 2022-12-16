@@ -58,9 +58,9 @@ header .container #nav #menu a:hover {
   position: relative;
   box-shadow: inset 0 -8vw #fff;
 }
-.humanizing-section .content hr {
-  width: 10rem;
-  height: 3px;
+.line {
+  width: 12rem;
+  height: 2px;
   background-color: #ffffff;
   margin-bottom: 4rem;
 }
@@ -71,6 +71,25 @@ header .container #nav #menu a:hover {
 
 .img-container,
 .img-container img {
+  width: 100%;
+}
+
+/* section 2 */
+
+.were-different-section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.content-infos {
+  padding-top: 5rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.content-infos .icon-container {
+  margin-bottom: 2rem;
   width: 100%;
 }
 
@@ -98,10 +117,16 @@ header .container #nav #menu a:hover {
     margin-top: 3rem;
     z-index: 4;
   }
+
+  .were-different-section {
+    text-align: center;
+  }
+  .were-different-section .content-infos {
+    flex-direction: column;
+  }
 }
 @media (max-width: 550px) {
   .img-container,
-  hr,
   span {
     display: none;
   }
