@@ -1,6 +1,6 @@
 .title {
   font-family: "DM Serif Display", serif;
-  font-size: min(4.5vw, 6rem);
+  font-size: clamp(2.5rem, 7.3vw, 5.33rem);
   font-weight: 400;
   color: #ffffff;
   line-height: 90%;
@@ -28,23 +28,33 @@
   margin-bottom: 2rem;
 }
 .sub-text {
-  color: var(--very-dark-violet);
+  color: var(--dark-grayish-violet);
   line-height: 160%;
   font-size: min(1.3vw, 1.23rem);
   font-weight: 400;
   padding-right: 5%;
   margin-bottom: 2rem;
 }
-
+.footer-nav-text,
+.footer-nav-title {
+  font-size: min(1.3vw, 1.23rem);
+  font-weight: 700;
+  line-height: 220%;
+}
+.footer-nav-text {
+  color: var(--very-dark-violet);
+}
+.footer-nav-title {
+  color: var(--dark-grayish-violet);
+}
 .were-different-section .title,
 .were-different-section .line {
   color: var(--very-dark-violet);
 }
 @media (max-width: 960px) {
-  .title {
-    font-size: 8vw;
-  }
-  .text {
+  .text,
+  .footer-nav-text,
+  .footer-nav-title {
     font-size: 3vw;
   }
   .sub-title {
@@ -58,10 +68,9 @@
   }
 }
 @media (max-width: 550px) {
-  .title {
-    font-size: 12vw;
-  }
-  .text {
+  .text,
+  .footer-nav-text,
+  .footer-nav-title {
     font-size: 4.3vw;
   }
   .sub-title {
