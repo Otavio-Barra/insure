@@ -21,7 +21,7 @@ ScrollReveal().reveal(titles, {
 });
 ScrollReveal().reveal(imgsIntro, {
   delay: 500,
-  origin: "right",
+  origin: "top",
   distance: "100px",
   duration: 550,
   reset: true,
