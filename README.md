@@ -1,21 +1,31 @@
-# Insure
 
-### Link para vizualização
 
-<a href="https://ornate-narwhal-abebdd.netlify.app/" target="_blank">Insure landing page</a>
 
-### Contatos
+# Landing page Insure
 
-<div>
-<a href="https://www.instagram.com/otavio.code/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+uma Landing page 100% responsiva e com efeitos na rolagem da pagina.
+![Capa da landding page](./insure-post/insure02.png)
+![Capa da landding page](./insure-post/insure03.png)
 
-<a href="https://www.linkedin.com/in/otávio-barra-72879621b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+## 🔨 Funcionalidades do projeto
 
-</div>
+O Insure tem como funcionalidade praticar alguns conseitos de HTML cemantico, CSS responsivo com flexbox e JS para dar um dinamismo maior no menu e na rolagem da pagina.
 
-### Imagens do projeto
+## ✔️ Técnicas e tecnologias utilizadas
 
-<div>
-<img src="./insure-post/insure02.png" alt="projeto">
-<img src="./insure-post/insure03.png" alt="projeto">
-</div>
+- `HTML`: O HTML tem um papel fundamental para criar a estrutura do site;
+- `CSS`: O CSS tem papel fundamental para implementar a responsividade e os estilos da pagina;
+- `JavaScript`: O JavaScript proporcionará um meio de deixar o menu mobile mais intertivo e dinamico, nessa landing page tambem foi usada uma biblioteca chamada ScrollReveal que permite esse efeito de rolagem em poucas linhas de codigo, e no codigo trabalhamos com:
+  - `querySelector`;
+  - `document`;
+  - `const`;
+  - `function`;
+
+## 📁 Acesso ao projeto
+
+[Veja o projeto final](https://ornate-narwhal-abebdd.netlify.app/).
+
+
+## 🛠️ Abrir e rodar o projeto
+
+Para abrir e rodar o projeto, basta abrir o aquivo `index.html` no navegador.
